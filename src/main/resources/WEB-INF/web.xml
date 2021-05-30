@@ -16,12 +16,4 @@
         <servlet-name>main</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
-    <error-page>
-        <error-code>404</error-code>
-        <location>/</location>
-    </error-page>
-    <error-page>
-        <exception-type>ru.netology.exception.NotFoundException</exception-type>
-        <location>/</location>
-    </error-page>
 </web-app>
