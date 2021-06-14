@@ -9,7 +9,6 @@ import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 
-@Repository
 public class PostRepository {
     private final ConcurrentHashMap<Long, Post> map = new ConcurrentHashMap<>();
     private long id;
